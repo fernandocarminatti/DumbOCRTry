@@ -26,6 +26,9 @@ OCR Screen Tool is a Java Swing application that allows users to paste screensho
 2. Ensure Tesseract OCR is installed
 3. Update `TESSERACT_PATH` in the `Main` class to match your Tesseract data path
 4. Add required libraries to your project classpath
+5. Build the project using Maven
+6. Run "mvn clean package" to create runnable JAR file containing all dependencies
+7. Run "java -jar target/ocr-tool-1.0.jar" to launch the application or create your own way to run it.
 
 ## Usage
 1. Launch the application
@@ -37,10 +40,6 @@ OCR Screen Tool is a Java Swing application that allows users to paste screensho
 ## Keyboard Shortcuts
 - `Ctrl+V`: Paste Screenshot
 - `Ctrl+C`: Copy Extracted Text
-
-## Customization
-- Modify `TOP_PANEL_HEIGHT` and `BOTTOM_PANEL_HEIGHT` constants to adjust window layout
-- Update Tesseract data path as needed
 
 ## Troubleshooting
 - Ensure Tesseract OCR is correctly installed
