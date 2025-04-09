@@ -12,7 +12,8 @@ class CustomImageLabel extends JLabel {
     public CustomImageLabel() {
         setHorizontalAlignment(CENTER);
         setVerticalAlignment(CENTER);
-
+        Color BACKGROUND_COLOR = new Color(23, 23, 23);
+        setBackground(BACKGROUND_COLOR);
         // Resize listener
         addComponentListener(new ComponentAdapter() {
             @Override
